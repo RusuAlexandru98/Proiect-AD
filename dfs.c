@@ -1,5 +1,6 @@
 #include "topological.h"
-
+/**Parcurgerea in adancime a grafului.
+*/
 void DFS(int i, int n, int visited[4], int adjacent_matrix[4][4]) {
 
 	int j;
@@ -10,7 +11,8 @@ void DFS(int i, int n, int visited[4], int adjacent_matrix[4][4]) {
 		}
 	}
 }
-
+/**Sortarea grafului cu ajutorul parcurgerii in adancime.
+*/
 void dfssort(int visited[4], int adjacent_matrix[4][4], int no_of_vertices){
 
     int i, j, inDeg[no_of_vertices];
