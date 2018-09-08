@@ -2,7 +2,12 @@
 #include "topological.h"
 #define no_of_vertices 4
 
+/**Sortare topologica
+*/
+/**O sortare topologica a varfurilor unui graf orientat aciclic este o operatie de ordonare liniara a varfurilor, astfel incat, daca exista un arc ( i, j ), atunci i apare inaintea lui j in aceasta ordonare.
 
+
+*/
 int visited[no_of_vertices];
 int adjacent_matrix[no_of_vertices][no_of_vertices];
 int x[no_of_vertices];
@@ -10,7 +15,8 @@ int x[no_of_vertices];
 
 
 int main()
-{
+{   /** Citirea matricei dintr un fisier dat.
+   */
         FILE *file_in;
     int iterator_rows;
     int iterator_columns;
@@ -38,7 +44,8 @@ int main()
         }
         printf("\n");
     }
-
+    /** Rezolvarea problemei cu ajutorul a 2 functii. 
+    */
         printf("\n");
         printf("Sortare topologica\n");
         sorting(adjacent_matrix, x, no_of_vertices);
