@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1536440902 source:c:\users\crist\desktop\#7rusualexandru\code\dfs.c
+	"topological.h"
+
+1536441019 c:\users\crist\desktop\#7rusualexandru\code\topological.h
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+
+1536440355 source:c:\users\crist\desktop\#7rusualexandru\code\main.c
+	"topological.h"
+
+1536439647 source:c:\users\crist\desktop\#7rusualexandru\code\topological.c
+	"topological.h"
+
